@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A67837C91B987ED0000291E4 /* glsupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67837C31B987ED0000291E4 /* glsupport.cpp */; };
+		A67837CC1B987EE9000291E4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67837CB1B987EE9000291E4 /* GLUT.framework */; };
+		A67837CE1B987EEE000291E4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67837CD1B987EEE000291E4 /* OpenGL.framework */; };
+		DBAF51932A033AF60088F654 /* mandelbrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBAF51922A0339910088F654 /* mandelbrot.cpp */; };
+		DBB61C6029900CB300DEB19A /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB61C5F29900CB300DEB19A /* libGLEW.2.2.0.dylib */; };
+		DBB61C6229900CBB00DEB19A /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB61C6129900CBB00DEB19A /* libglfw.3.3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A604772B1B987E5B005CA601 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A604772D1B987E5B005CA601 /* mandelbrot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mandelbrot; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67837C31B987ED0000291E4 /* glsupport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glsupport.cpp; sourceTree = "<group>"; };
+		A67837C41B987ED0000291E4 /* glsupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glsupport.h; sourceTree = "<group>"; };
+		A67837C71B987ED0000291E4 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		A67837CB1B987EE9000291E4 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		A67837CD1B987EEE000291E4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		DBAF51922A0339910088F654 /* mandelbrot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mandelbrot.cpp; sourceTree = "<group>"; };
+		DBAF51942A033B4F0088F654 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		DBAF51982A033B4F0088F654 /* GL */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GL; sourceTree = "<group>"; };
+		DBB61C5F29900CB300DEB19A /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../../../usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
+		DBB61C6129900CBB00DEB19A /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../usr/local/Cellar/glfw/3.3.8/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A604772A1B987E5B005CA601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67837CE1B987EEE000291E4 /* OpenGL.framework in Frameworks */,
+				A67837CC1B987EE9000291E4 /* GLUT.framework in Frameworks */,
+				DBB61C6029900CB300DEB19A /* libGLEW.2.2.0.dylib in Frameworks */,
+				DBB61C6229900CBB00DEB19A /* libglfw.3.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60477241B987E5A005CA601 = {
+			isa = PBXGroup;
+			children = (
+				DBB61C5E29900CB300DEB19A /* Frameworks */,
+				DBAF51982A033B4F0088F654 /* GL */,
+				A67837C31B987ED0000291E4 /* glsupport.cpp */,
+				A67837C41B987ED0000291E4 /* glsupport.h */,
+				A67837CB1B987EE9000291E4 /* GLUT.framework */,
+				DBAF51942A033B4F0088F654 /* lib */,
+				DBAF51922A0339910088F654 /* mandelbrot.cpp */,
+				A67837CD1B987EEE000291E4 /* OpenGL.framework */,
+				A67837C71B987ED0000291E4 /* shaders */,
+				A604772E1B987E5B005CA601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A604772E1B987E5B005CA601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A604772D1B987E5B005CA601 /* mandelbrot */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB61C5E29900CB300DEB19A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBB61C6129900CBB00DEB19A /* libglfw.3.3.dylib */,
+				DBB61C5F29900CB300DEB19A /* libGLEW.2.2.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A604772C1B987E5B005CA601 /* mandelbrot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60477341B987E5B005CA601 /* Build configuration list for PBXNativeTarget "mandelbrot" */;
+			buildPhases = (
+				A60477291B987E5B005CA601 /* Sources */,
+				A604772A1B987E5B005CA601 /* Frameworks */,
+				A604772B1B987E5B005CA601 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mandelbrot;
+			productName = "cs175-asst1";
+			productReference = A604772D1B987E5B005CA601 /* mandelbrot */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60477251B987E5A005CA601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = cs175;
+				TargetAttributes = {
+					A604772C1B987E5B005CA601 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = A60477281B987E5A005CA601 /* Build configuration list for PBXProject "mandelbrot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = A60477241B987E5A005CA601;
+			productRefGroup = A604772E1B987E5B005CA601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A604772C1B987E5B005CA601 /* mandelbrot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60477291B987E5B005CA601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67837C91B987ED0000291E4 /* glsupport.cpp in Sources */,
+				DBAF51932A033AF60088F654 /* mandelbrot.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A60477321B987E5B005CA601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A60477331B987E5B005CA601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A60477351B987E5B005CA601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CONFIGURATION_BUILD_DIR = .;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.8/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				OBJROOT = build;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D__MAC__",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = .;
+			};
+			name = Debug;
+		};
+		A60477361B987E5B005CA601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CONFIGURATION_BUILD_DIR = .;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.8/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				OBJROOT = build;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D__MAC__",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = .;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60477281B987E5A005CA601 /* Build configuration list for PBXProject "mandelbrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60477321B987E5B005CA601 /* Debug */,
+				A60477331B987E5B005CA601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60477341B987E5B005CA601 /* Build configuration list for PBXNativeTarget "mandelbrot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60477351B987E5B005CA601 /* Debug */,
+				A60477361B987E5B005CA601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60477251B987E5A005CA601 /* Project object */;
+}
